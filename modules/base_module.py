@@ -11,7 +11,7 @@ class BaseModule():
         with open ("config.yaml", "r") as f:
             config = yaml.safe_load(f)
         self.api = config["api"]
-        self.base_url = config["base-url"] if "base-url" in config else None
+        self.base_url = config["base_url"] if "base_url" in config else None
     
     def query(self, query: str) -> str:
         assert self.name != None, "The name of the module should be defined."

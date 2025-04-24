@@ -18,3 +18,17 @@ Then, run:
 ```sh
 python main.py
 ```
+
+## Functions
+
+### Automatically generate the code
+
+![Main](./figures/main.gif)
+
+### Modify the code as you want:
+
+![Modify](./figures/code.gif)
+
+### Fix the error easily:
+
+![Fix](./figures/fix.gif)

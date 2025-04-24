@@ -3,7 +3,7 @@ from openai import OpenAI
 def call(api, base_url, model, prompt, query): 
 
     client = OpenAI(api_key=api, base_url=base_url)
-
+    
     response = client.chat.completions.create(
         model= model,
         messages=[
