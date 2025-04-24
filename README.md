@@ -1,4 +1,4 @@
-# Auto_Coding
+# Auto Coding
 This is an LLM-based Auto-coding project.
 
 ## Installation
