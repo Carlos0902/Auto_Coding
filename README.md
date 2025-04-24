@@ -8,7 +8,7 @@ conda create --name <your_env> --file requirements.txt
 conda activate your_env
 ```
 
-## Usage
+## Quick Start
 Create a config.yaml file in the main directory like:
 ```yaml
 api: <your api>
