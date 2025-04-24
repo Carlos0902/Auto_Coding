@@ -14,8 +14,6 @@ class Corrector(BaseModule):
         '''
         Correct a code.
         '''
-        print("Correcting...")
         text = f"Task: {task}\nCode: {code}\nReason: {reason}"
         code = self.query(text)
-        print("-" * 100)
         return str2code(code)

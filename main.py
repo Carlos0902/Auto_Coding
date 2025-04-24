@@ -61,7 +61,7 @@ class AutoCoder():
             editor = ui.codemirror(self.code).classes('w-full h-full')
             with ui.row():
                 ui.button('Save', on_click=lambda: self.save_code(editor))
-                ui.button('AI Modification', on_click=lambda: self.correct_code(self.prompt_value))
+                ui.button('AI Modification', on_click=lambda: self.correct_code())
                 ui.button('Run Code', on_click=lambda: self.run_code())
         
     async def save_code(self, editor):
