@@ -1,7 +1,14 @@
-# Auto_Coding
+# Auto Coding
 This is an LLM-based Auto-coding project.
 
-## Usage
+## Installation
+Conda:
+```sh
+conda create --name <your_env> --file requirements.txt
+conda activate your_env
+```
+
+## Quick Start
 Create a config.yaml file in the main directory like:
 ```yaml
 api: <your api>
